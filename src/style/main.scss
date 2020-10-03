@@ -12,6 +12,8 @@ html {
 }
 
 body {
+    color: #808080;
+    font-family: "Open Sans";
     overflow-x: hidden;
     font-weight: normal;
 
@@ -31,5 +33,7 @@ body {
 @import './headernavbar.scss';
 @import './auth/signin.scss';
 @import './auth/signup.scss';
+
 @import './page-title.scss';
+@import './form-field.scss';
 

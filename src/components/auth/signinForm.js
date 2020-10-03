@@ -25,6 +25,8 @@ class SignInForm extends Component {
                     placeholder='Password'
                     component={FormInput} />
 
+                    <div className='sign-in-form__line'></div>
+                    
                 <Field
                     onClick={() => console.log('tryna submmit')}
                     className='sign-in-form__login'
