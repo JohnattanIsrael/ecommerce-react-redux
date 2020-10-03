@@ -24,9 +24,11 @@ class SignInForm extends Component {
                     title='Password'
                     placeholder='Password'
                     component={FormInput} />
-
-                    <div className='sign-in-form__line'></div>
                     
+                
+                <div className='sign-in-form__line'></div>
+                
+
                 <Field
                     onClick={() => console.log('tryna submmit')}
                     className='sign-in-form__login'
@@ -35,7 +37,7 @@ class SignInForm extends Component {
                     title='Login'
                     component={FormButton} />
 
-                <button></button>
+                
             </form>
         );
     }
