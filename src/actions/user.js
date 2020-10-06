@@ -22,7 +22,7 @@ export function fetchUserPurchases() {
                 creditCard: '-0000',
                 user: {
                     name: 'Mr Shopper',
-                    shippingAdresss: '1234 West State Street'
+                    shippingAddress: '1234 West State Street'
                 }
             },
             {
@@ -33,7 +33,7 @@ export function fetchUserPurchases() {
                 creditCard: '-0000',
                 user: {
                     name: 'Cleons Family',
-                    shippingAdresss: '1234 West State Street'
+                    shippingAddress: '1234 West State Street'
                 }
             },
             {
@@ -44,7 +44,7 @@ export function fetchUserPurchases() {
                 creditCard: '-0000',
                 user: {
                     name: 'Johna Angeles',
-                    shippingAdresss: '1234 West State Street'
+                    shippingAddress: '1234 West State Street'
                 }
             },
             {
@@ -55,7 +55,7 @@ export function fetchUserPurchases() {
                 creditCard: '-0000',
                 user: {
                     name: 'Leon Musk',
-                    shippingAdresss: '1234 West State Street'
+                    shippingAddress: '1234 West State Street'
                 }
             },
             {
@@ -66,7 +66,7 @@ export function fetchUserPurchases() {
                 creditCard: '-0000',
                 user: {
                     name: 'Stary Crace',
-                    shippingAdresss: '1234 West State Street'
+                    shippingAddress: '1234 West State Street'
                 }
             },
             {
@@ -77,7 +77,7 @@ export function fetchUserPurchases() {
                 creditCard: '-0000',
                 user: {
                     name: 'Jamb Curtis',
-                    shippingAdresss: '1234 West State Street'
+                    shippingAdress: '1234 West State Street'
                 }
             },
             {
@@ -88,7 +88,7 @@ export function fetchUserPurchases() {
                 creditCard: '-0000',
                 user: {
                     name: 'Trim Bull',
-                    shippingAdresss: '1234 West State Street'
+                    shippingAddress: '1234 West State Street'
                 }
             },
             {
@@ -99,7 +99,7 @@ export function fetchUserPurchases() {
                 creditCard: '-0000',
                 user: {
                     name: 'Papric Foland',
-                    shippingAdresss: '1234 East State Street'
+                    shippingAddress: '1234 East State Street'
                 }
             }
         ]
