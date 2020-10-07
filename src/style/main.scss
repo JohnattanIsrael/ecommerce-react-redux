@@ -33,12 +33,14 @@ body {
 @import './headernavbar.scss';
 @import './auth/signin.scss';
 @import './auth/signup.scss';
-
+// Auth
 @import './page-title.scss';
 @import './form-field.scss';
 @import './details.scss';
-
+// Account
 @import './account/account.scss';
 @import './account/account-information.scss';
 @import './account/purchase-history.scss';
+// Shop
+@import './shop/shop.scss';
 
