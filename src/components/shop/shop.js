@@ -5,6 +5,7 @@ import * as actions from '../../actions';
 
 import ShopSearchBar from './shopSearchbar';
 import ShopProduct from './shopProduct';
+import ShopCart from './shopCart';
 
 class Shop extends Component {
 
@@ -20,10 +21,7 @@ class Shop extends Component {
         this.props.setHeaderLinks(headerLinks);
         this.props.fetchShopCategories();
         this.props.fetchShopProducts();
-        // fetch shop products action creator
 
-
-        // filter products with links
     }
 
     shouldComponentUpdate(nextProps) {
@@ -45,6 +43,7 @@ class Shop extends Component {
                 onSubmit= {this.onSubmit}
                 className='shop__search-bar'
                 />
+                
                 <div className='shop__products'>
                     {
                         this.props.filteredProducts.map(product => {
