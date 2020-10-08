@@ -3,12 +3,15 @@ import { reduxForm, Field } from 'redux-form';
 
 function FormSearchBar(props) {
     return (
-        <input
-        {...props.input}
-        type='text'
-        placeholder = {`${props.placeholder}`}
-        className={`${props.className} form-search-bar`}
-        />
+        <div className='search-bar-grid'>
+            <i className="fas fa-search search-bar-grid__icon"></i>
+            <input
+                {...props.input}
+                type='text'
+                placeholder={`${props.placeholder}`}
+                className={`${props.className} form-search-bar search-bar-grid__input`}
+            />
+        </div>
     )
 }
 
@@ -17,12 +20,12 @@ class ShopSearchBar extends Component {
         const { className, handleSubmit } = this.props;
         return (
             <form onSubmit={handleSubmit} className={`${className} shop-search-bar`}>
-                <Field 
-                name='query'
-                className='shop-search-bar__form-search-bar' 
-                placeholder='Search'
-                component={FormSearchBar}
-                />  
+                <Field
+                    name='query'
+                    className='shop-search-bar__form-search-bar'
+                    placeholder='Search'
+                    component={FormSearchBar}
+                />
             </form>
         );
     }
