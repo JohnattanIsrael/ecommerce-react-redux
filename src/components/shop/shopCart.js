@@ -55,7 +55,7 @@ export default class ShopCart extends Component {
                 />
                 <CartContent
                     className='shop-cart__content'
-                    products={[4, 444, 443]}
+                    products={[4, 444, 443, 445, 33, 5443, 233, 14, 1444, 1443, 1445, 133, 154, 43, 1233]}
                 />
 
             </div>
