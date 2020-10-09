@@ -1,13 +1,44 @@
 import {
     SET_USER_PURCHASES,
-    SET_PURCHASE_DETAIL
+    SET_PURCHASE_DETAIL,
+    SET_CART_PRODUCTS
 } from './types';
 
 export function setPurchaseDetail(_id) {
-    
+
     return ({
         type: SET_PURCHASE_DETAIL,
         payload: _id
+    })
+}
+
+export function fetchCartProducts() {
+    return ({
+        type: SET_CART_PRODUCTS,
+        payload: [
+            {
+                _id:0,
+                product: {
+                    _id: 0,
+                    title: 'Javascripts in the Browser',
+                    description: "The FitnessGram PACER Test is a multistage aerobic capacity test that progressively gets more difficult as it continues The test is used to measure a students aerobic capacity as part of the FitnessGram assessment.",
+                    price: 1.99,
+                    belongsTo: [0, 1]
+                },
+                quantity: 2
+            },
+            {
+                _id:1,
+                product: {
+                    _id: 1,
+                    title: 'Graph database',
+                    description: "The FitnessGram PACER Test is a multistage aerobic capacity test that progressively gets more difficult as it continues The test is used to measure a students aerobic capacity as part of the FitnessGram assessment.",
+                    price: 1.99,
+                    belongsTo: [0, 6]
+                },
+                quantity: 1
+            }
+        ]
     })
 }
 
@@ -16,7 +47,7 @@ export function fetchUserPurchases() {
         type: SET_USER_PURCHASES,
         payload: [
             {
-                _id:8,
+                _id: 8,
                 total: 19.47,
                 orderNumber: 'AADF948840',
                 orderDate: new Date().toDateString(),
@@ -27,7 +58,7 @@ export function fetchUserPurchases() {
                 }
             },
             {
-                _id:1,
+                _id: 1,
                 total: 29.37,
                 orderNumber: 'AGVJH8840',
                 orderDate: new Date().toDateString(),
@@ -38,7 +69,7 @@ export function fetchUserPurchases() {
                 }
             },
             {
-                _id:2,
+                _id: 2,
                 total: 3.89,
                 orderNumber: 'HDJD783840',
                 orderDate: new Date().toDateString(),
@@ -49,7 +80,7 @@ export function fetchUserPurchases() {
                 }
             },
             {
-                _id:3,
+                _id: 3,
                 total: 74.20,
                 orderNumber: 'LSJD790840',
                 orderDate: new Date().toDateString(),
@@ -60,7 +91,7 @@ export function fetchUserPurchases() {
                 }
             },
             {
-                _id:4,
+                _id: 4,
                 total: 48.27,
                 orderNumber: '0KSJJSJ40',
                 orderDate: new Date().toDateString(),
@@ -71,7 +102,7 @@ export function fetchUserPurchases() {
                 }
             },
             {
-                _id:5,
+                _id: 5,
                 total: 99.44,
                 orderNumber: '737HJKDMD0',
                 orderDate: new Date().toDateString(),
@@ -82,7 +113,7 @@ export function fetchUserPurchases() {
                 }
             },
             {
-                _id:6,
+                _id: 6,
                 total: 11.23,
                 orderNumber: 'JDLAL2230',
                 orderDate: new Date().toDateString(),
@@ -93,7 +124,7 @@ export function fetchUserPurchases() {
                 }
             },
             {
-                _id:7,
+                _id: 7,
                 total: 8.30,
                 orderNumber: 'ASGD794840',
                 orderDate: new Date().toDateString(),
