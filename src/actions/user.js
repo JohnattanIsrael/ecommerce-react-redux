@@ -32,7 +32,8 @@ export function fetchCartProducts() {
                     title: 'Javascripts in the Browser',
                     description: "The FitnessGram PACER Test is a multistage aerobic capacity test that progressively gets more difficult as it continues The test is used to measure a students aerobic capacity as part of the FitnessGram assessment.",
                     price: 1.99,
-                    belongsTo: [0, 1]
+                    belongsTo: [0, 1],
+                    imageUrl: 'http://via.placeholder.com/80x80'
                 },
                 quantity: 2
             },
@@ -43,7 +44,8 @@ export function fetchCartProducts() {
                     title: 'Graph database',
                     description: "The FitnessGram PACER Test is a multistage aerobic capacity test that progressively gets more difficult as it continues The test is used to measure a students aerobic capacity as part of the FitnessGram assessment.",
                     price: 1.99,
-                    belongsTo: [0, 6]
+                    belongsTo: [0, 6],
+                    imageUrl: 'http://via.placeholder.com/80x80'
                 },
                 quantity: 1
             }

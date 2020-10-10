@@ -64,56 +64,64 @@ export function fetchShopProducts() {
                 title: 'Javascripts in the Browser',
                 description: "The FitnessGram PACER Test is a multistage aerobic capacity test that progressively gets more difficult as it continues The test is used to measure a students aerobic capacity as part of the FitnessGram assessment.",
                 price: 1.99,
-                belongsTo: [0, 1]
+                belongsTo: [0, 1],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 1,
                 title: 'Graph database',
                 description: "The FitnessGram PACER Test is a multistage aerobic capacity test that progressively gets more difficult as it continues The test is used to measure a students aerobic capacity as part of the FitnessGram assessment.",
                 price: 1.99,
-                belongsTo: [0, 6]
+                belongsTo: [0, 6],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 2,
                 title: 'Fullsatck development',
                 description: "The FitnessGram PACER Test is a multistage aerobic capacity test that progressively gets more difficult as it continues The test is used to measure a students aerobic capacity as part of the FitnessGram assessment.",
                 price: 1.99,
-                belongsTo: [0, 1, 3]
+                belongsTo: [0, 1, 3],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 3,
                 title: 'Javascript developement',
                 description: "The FitnessGram PACER Test is a multistage aerobic capacity test that progressively gets more difficult as it continues The test is used to measure a students aerobic capacity as part of the FitnessGram assessment.",
                 price: 1.99,
-                belongsTo: [0, 1]
+                belongsTo: [0, 1],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 4,
                 title: 'User Experience Design',
                 description: "The FitnessGram PACER Test is a multistage aerobic capacity test that progressively gets more difficult as it continues The test is used to measure a students aerobic capacity as part of the FitnessGram assessment.",
                 price: 1.99,
-                belongsTo: [0, 2]
+                belongsTo: [0, 2],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 5,
                 title: 'User Interfase Design',
                 description: "The FitnessGram PACER Test is a multistage aerobic capacity test that progressively gets more difficult as it continues The test is used to measure a students aerobic capacity as part of the FitnessGram assessment. ",
                 price: 1.99,
-                belongsTo: [0, 2]
+                belongsTo: [0, 2],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 6,
                 title: 'ObjectOriented Programmins',
                 description: "The FitnessGram PACER Test is a multistage aerobic capacity test that progressively gets more difficult as it continues The test is used to measure a students aerobic capacity as part of the FitnessGram assessment. ",
                 price: 1.99,
-                belongsTo: [0, 3]
+                belongsTo: [0, 3],
+                imageUrl: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 7,
                 title: 'Advanved Op',
                 description: "The FitnessGram PACER Test is a multistage aerobic capacity test that progressively gets more difficult as it continues The test is used to measure a students aerobic capacity as part of the FitnessGram assessment. ",
                 price: 1.88,
-                belongsTo: [0, 5]
+                belongsTo: [0, 5],
+                imageUrl: 'http://via.placeholder.com/80x80'
             }
         ]
     })
