@@ -20,23 +20,27 @@ import SignIn from './components/auth/signin';
 import SignUp from './components/auth/signup';
 import Account from './components/account/account';
 import Shop from './components/shop/shop';
+import Review from './components/order/review';
 
 function main() {
   ReactDOM.render(
     <Provider store={createStoreWithMiddleware(reducers)}>
-      <Router 
-      history={history}
+      <Router
+        history={history}
       >
         <Layout>
           <Switch>
-            <Route path='/' exact component={SignIn}/>
-            <Route path='/signin' exact component={SignIn}/>
-            <Route path='/signup' exact component={SignUp}/>
 
-            <Route path='/account' exact component={Account}/>
-            <Route path='/shop' exact component={Shop}/>
+            <Route path='/' exact component={SignIn} />
+            <Route path='/signin' exact component={SignIn} />
+            <Route path='/signup' exact component={SignUp} />
+
+            <Route path='/account' exact component={Account} />
+            <Route path='/shop' exact component={Shop} />
+            <Route path='/order/review' exact component={Review} />
+
           </Switch>
-          
+
         </Layout>
       </Router>
     </Provider>,
