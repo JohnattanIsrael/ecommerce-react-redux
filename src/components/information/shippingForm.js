@@ -10,7 +10,7 @@ class ShippingForm extends Component {
     render() {
         const { className, handleSubmit } = this.props;
         return (
-            <form onSubmit={handleSubmit} className={`${className} shipping-form`}>
+            <form onSubmit={handleSubmit} className={`${className} shipping__form`}>
                 <Field
                     className='shipping-form__name'
                     name='name'
